@@ -1,0 +1,58 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h1{
+    text-align: center;
+}
+#playGame{
+    display: block;
+    width: 200px;
+    height: 42px;
+    margin: 20px auto;
+    background-color: #ff91004f;
+    color: #000000d3;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition-duration: 0.1s;
+}
+
+#playGame:hover{
+ 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#playGame:active{
+    background-color: #cf6823d3;
+    color: #ffffff;
+}
+
+
+.imageDiv{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+#choice,
+#result,
+#score{
+    margin: 0 auto;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+#score{
+    font-size: 24px;
+    margin-top: 20px;
+}
